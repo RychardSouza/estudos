@@ -5,44 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Que horas são?</title>
-    <style>
-        body {
-            text-align: center;
-            font: normal 18pt Arial;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body id="body">
-    <h1 id="h1"></h1>
-    <div id="img2"></div>
+   <header>
+    <h1>Hora do dia</h1>
+   </header> 
+   <section>
+    <div id="msg"></div>
+    <div>
+        <img id="img2" alt="">
+    </div>
+   </section>
+    <footer>
+        <p>&copy; RychardSouza</p>
+    </footer>
     
-
-    <script>
-        var agora = new Date()
-        var hora = agora.getHours()
-        var res = document.getElementById('h1')
-        var fundo = document.getElementById('body')
-        var imgdia = "bom_dia.jpg"
-        var imgtarde = "boa_tarde.webp"
-        var imgnoite = "boa_noite.jpg"
-        var img = document.getElementById('img2')
-
-        if (hora <= 12){
-           res.innerHTML = `Agora são ${hora}h. Tenha um bom dia!`
-           fundo.style.background = 'yellow'
-           img.innerHTML = '<img id="img" src="bom_dia.jpg-" alt="">'
-          
-        } else if (hora <= 18) {
-            res.innerHTML = `Agora são ${hora}h. Tenha uma boa tarde!`
-            fundo.style.background = 'orange'
-            img.innerHTML = '<img id="img" src="boa_tarde.webp" alt="">'
-        } else {
-            res.innerHTML = `Agora são ${hora}h. Tenha uma boa noite!`
-            fundo.style.background = 'grey'
-            img.innerHTML = '<img id="img" src="boa_noite.jpg" alt="">'
-
-        }
-    </script>
+    <script src="script.js"></script>
+    
 </body>
 </html>
