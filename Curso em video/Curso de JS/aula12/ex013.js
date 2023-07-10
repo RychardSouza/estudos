@@ -14,7 +14,7 @@ switch(dsem) {
         console.log('Hoje é Domingo')
         break
     case 1: 
-        console.log('Hoje é Segundo-Feira')
+        console.log('Hoje é Segunda-Feira')
         break
     case 2: 
         console.log('Hoje é Terça-Feira')
