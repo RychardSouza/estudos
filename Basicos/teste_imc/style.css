@@ -1,11 +1,17 @@
 body {
-    background: rgba(0, 119, 255, 0.685);
+    background: rgba(45, 45, 46, 0.685);
     font: normal 15pt Arial;
+    
 }
 
 header {
     color: white;
     text-align: center;
+}
+
+input {
+
+    color: rgb(51, 51, 51);
 }
 
 section {
