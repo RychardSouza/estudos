@@ -15,4 +15,4 @@ elif exp == '-':
     print('O resultado da subtração é de: ', result )
 elif exp == '*':
     result = int(num1) * int(num2)
-    print('O resultado da multiplicação é de: ', result )
+    print('O resultado da multiplicação é de: ', result )   
